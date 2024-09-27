@@ -1,3 +1,7 @@
+by Nazariy Jaworski (c)
+nazariyjaworski@gmail.com 
+---------------------------------------------------------------------------------------------------
+
 ### How to use
 md build
 cd build
