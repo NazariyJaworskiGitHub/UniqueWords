@@ -9,5 +9,6 @@ int main(void)
     assert(word_counter.getUniqueWords("../../ut/input2.txt").size() == 1);
     assert(word_counter.getUniqueWords("../../ut/input3.txt").size() == 0);
     assert(word_counter.getUniqueWords("../../ut/input4.txt").size() == 4);
+    assert(word_counter.getUniqueWords("../../ut/input5.txt").size() == 0);
     return 0;
 }

@@ -3,11 +3,19 @@ nazariyjaworski@gmail.com
 ---------------------------------------------------------------------------------------------------
 
 ### How to use
+- Windows
 md build
 cd build
 cmake -G "MinGW Makefiles" ../
 mingw32-make
-./UniqueWords.exe ../input.txt
+./UniqueWords ../input.txt
+
+- Linux
+mkdir build
+cd build
+cmake ..
+make
+./UniqueWords ../input.txt
 ---------------------------------------------------------------------------------------------------
 
 ### How does it work

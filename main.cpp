@@ -6,7 +6,7 @@ int main(int argc, char *argv[])
     if(argc>1)
     {
         std::string file_name(argv[1]);
-        std::cout << "Processing " << file_name << std::endl;
+        // std::cout << "Processing " << file_name << std::endl;
         std::ifstream file(file_name);
         if (!file.is_open()) throw std::runtime_error("Could not open file.");
         file.close();
